@@ -1,0 +1,48 @@
+h1{
+    color:red;
+}
+*{
+    border:solid;
+}
+.Header{
+    background-color:green;
+    display:flex;
+    justify-content:space-between
+}
+.menu{
+    
+}
+.menu a{
+    margin:30px;
+}
+.site-description{
+    background-color:#FF0000;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.3;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end
+}
+body{
+    background-color:#808080;
+}
